@@ -337,8 +337,8 @@
     "timestamp": 1790226898407
   },
   {
-    "id": "1790066105882",
-    "title": "©kiryoアプリ　厳選詰将棋② (2026/9/22)",
+    "id": "1790258432316",
+    "title": "©kiryoアプリ　厳選詰将棋② (2026/9/24)",
     "appTitle": "©kiryoアプリ　厳選詰将棋②",
     "clearUrl": "https://ais-pre-x5hnwaz6bcxstyuj6qxrfz-87151204104.asia-northeast1.run.app/complete?book=12-2",
     "problems": [
@@ -346,7 +346,30 @@
         "id": 1,
         "title": "第1問",
         "description": "重要詰将棋です。",
-        "initialSfen": "+R8/p8/kp7/9/1P7/9/9/9/9 b SLr2b4g3s4n3l15p 1"
+        "initialSfen": "+R8/p8/kp7/9/1P7/9/9/9/9 b SLr2b4g3s4n3l15p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 9,
+              "y": 5
+            },
+            "piece": "KY"
+          },
+          {
+            "to": {
+              "x": 9,
+              "y": 4
+            },
+            "piece": "GI"
+          },
+          {
+            "to": {
+              "x": 8,
+              "y": 2
+            },
+            "piece": "GI"
+          }
+        ]
       },
       {
         "id": 2,
@@ -411,25 +434,159 @@
         "id": 3,
         "title": "第3問",
         "description": "重要詰将棋です。",
-        "initialSfen": "7+R1/7g1/5p1k1/9/9/7S1/9/9/9 b Gr2b2g3s4n4l17p 1"
+        "initialSfen": "7+R1/7g1/5p1k1/9/9/7S1/9/9/9 b Gr2b2g3s4n4l17p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 2,
+              "y": 4
+            },
+            "piece": "KI"
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 3
+            },
+            "to": {
+              "x": 2,
+              "y": 4
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 1
+            },
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 4
+            },
+            "to": {
+              "x": 3,
+              "y": 4
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 3,
+              "y": 5
+            },
+            "piece": "KI"
+          }
+        ]
       },
       {
         "id": 4,
         "title": "第4問",
         "description": "重要詰将棋です。",
-        "initialSfen": "5R1nn/7k1/6Ppp/9/9/9/9/9/9 b r2b4g4s2n4l15p 1"
+        "initialSfen": "5R1nn/7k1/6Ppp/9/9/9/9/9/9 b r2b4g4s2n4l15p 1",
+        "solution": [
+          {
+            "from": {
+              "x": 4,
+              "y": 1
+            },
+            "to": {
+              "x": 4,
+              "y": 2
+            },
+            "promote": true
+          },
+          {
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "piece": "GI"
+          },
+          {
+            "from": {
+              "x": 4,
+              "y": 2
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": false
+          }
+        ]
       },
       {
         "id": 5,
         "title": "第5問",
         "description": "重要詰将棋です。",
-        "initialSfen": "9/6G1k/7s1/9/9/9/9/9/9 b RGr2b2g3s4n4l18p 1"
+        "initialSfen": "9/6G1k/7s1/9/9/9/9/9/9 b RGr2b2g3s4n4l18p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 1,
+              "y": 1
+            },
+            "piece": "HI"
+          },
+          {
+            "from": {
+              "x": 1,
+              "y": 2
+            },
+            "to": {
+              "x": 1,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "piece": "KI"
+          }
+        ]
       },
       {
         "id": 6,
         "title": "第6問",
         "description": "重要詰将棋です。",
-        "initialSfen": "ln1k5/1G1g1R3/pppp5/9/9/9/9/9/9 b SNr2b2g3s2n3l14p 1"
+        "initialSfen": "ln1k5/1G1g1R3/pppp5/9/9/9/9/9/9 b SNr2b2g3s2n3l14p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 5,
+              "y": 3
+            },
+            "piece": "KE"
+          },
+          {
+            "from": {
+              "x": 6,
+              "y": 2
+            },
+            "to": {
+              "x": 5,
+              "y": 3
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 6,
+              "y": 2
+            },
+            "piece": "GI"
+          }
+        ]
       },
       {
         "id": 7,
@@ -571,19 +728,122 @@
         "id": 9,
         "title": "第9問",
         "description": "重要詰将棋です。",
-        "initialSfen": "5g2l/7k1/4ppnpp/9/9/9/9/9/9 b GN2r2b2g4s2n3l14p 1"
+        "initialSfen": "5g2l/7k1/4ppnpp/9/9/9/9/9/9 b GN2r2b2g4s2n3l14p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 3,
+              "y": 4
+            },
+            "piece": "KE"
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 2
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "piece": "KI"
+          }
+        ]
       },
       {
         "id": 10,
         "title": "第10問",
         "description": "重要詰将棋です。",
-        "initialSfen": "5g2l/4g1k2/5pnpp/9/9/9/9/9/9 b RGNr2bg4s2n3l15p 1"
+        "initialSfen": "5g2l/4g1k2/5pnpp/9/9/9/9/9/9 b RGNr2bg4s2n3l15p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "piece": "HI"
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 3,
+              "y": 4
+            },
+            "piece": "KE"
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 2
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "piece": "KI"
+          }
+        ]
       },
       {
         "id": 11,
         "title": "第11問",
         "description": "どこにおびき寄せる？",
-        "initialSfen": "7nk/6Gsl/7pp/9/8N/9/9/9/9 b S2r2b3g2s2n3l16p 1"
+        "initialSfen": "7nk/6Gsl/7pp/9/8N/9/9/9/9 b S2r2b3g2s2n3l16p 1",
+        "solution": [
+          {
+            "from": {
+              "x": 1,
+              "y": 5
+            },
+            "to": {
+              "x": 2,
+              "y": 3
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 3
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "piece": "GI"
+          }
+        ]
       },
       {
         "id": 12,
@@ -775,43 +1035,522 @@
         "id": 14,
         "title": "第14問",
         "description": "重要詰将棋です。",
-        "initialSfen": "ln3R3/1skgg4/pp1pp4/2p6/3N5/9/9/9/9 b BGPrbg3s2n3l12p 1"
+        "initialSfen": "ln3R3/1skgg4/pp1pp4/2p6/3N5/9/9/9/9 b BGPrbg3s2n3l12p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 7,
+              "y": 3
+            },
+            "piece": "FU"
+          },
+          {
+            "from": {
+              "x": 6,
+              "y": 2
+            },
+            "to": {
+              "x": 7,
+              "y": 3
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 6,
+              "y": 1
+            },
+            "piece": "KA"
+          },
+          {
+            "from": {
+              "x": 7,
+              "y": 2
+            },
+            "to": {
+              "x": 6,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 6,
+              "y": 1
+            },
+            "to": {
+              "x": 5,
+              "y": 2
+            },
+            "promote": true
+          },
+          {
+            "from": {
+              "x": 6,
+              "y": 2
+            },
+            "to": {
+              "x": 5,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 4,
+              "y": 2
+            },
+            "piece": "KI"
+          },
+          {
+            "from": {
+              "x": 5,
+              "y": 2
+            },
+            "to": {
+              "x": 6,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 4,
+              "y": 1
+            },
+            "to": {
+              "x": 5,
+              "y": 1
+            },
+            "promote": true
+          },
+          {
+            "from": {
+              "x": 6,
+              "y": 2
+            },
+            "to": {
+              "x": 7,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 6,
+              "y": 2
+            },
+            "piece": "KI"
+          }
+        ]
       },
       {
         "id": 15,
         "title": "第15問",
         "description": "重要詰将棋です。",
-        "initialSfen": "6k2/5g3/6+P2/9/9/9/9/9/9 b GN2r2b2g4s3n4l17p 1"
+        "initialSfen": "6k2/5g3/6+P2/9/9/9/9/9/9 b GN2r2b2g4s3n4l17p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 4,
+              "y": 3
+            },
+            "piece": "KE"
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 1
+            },
+            "to": {
+              "x": 4,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 5,
+              "y": 1
+            },
+            "piece": "KI"
+          }
+        ]
       },
       {
         "id": 16,
         "title": "第16問",
         "description": "持ち駒の金を使って詰ましてください。",
-        "initialSfen": "9/6Sk1/5+P3/9/9/9/9/9/9 b G2r2b3g3s4n4l17p 1"
+        "initialSfen": "9/6Sk1/5+P3/9/9/9/9/9/9 b G2r2b3g3s4n4l17p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 2,
+              "y": 3
+            },
+            "piece": "KI"
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 2
+            },
+            "to": {
+              "x": 1,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "promote": true
+          },
+          {
+            "from": {
+              "x": 1,
+              "y": 1
+            },
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 4,
+              "y": 3
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 1
+            },
+            "to": {
+              "x": 1,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "promote": false
+          }
+        ]
       },
       {
         "id": 17,
         "title": "第17問",
         "description": "重要詰将棋です。",
-        "initialSfen": "8l/7k1/5+P1pp/9/9/9/9/9/9 b 2S2r2b4g2s4n3l15p 1"
+        "initialSfen": "8l/7k1/5+P1pp/9/9/9/9/9/9 b 2S2r2b4g2s4n3l15p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 3,
+              "y": 3
+            },
+            "piece": "GI"
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 2
+            },
+            "to": {
+              "x": 1,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "piece": "GI"
+          },
+          {
+            "from": {
+              "x": 1,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 4,
+              "y": 3
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 1
+            },
+            "to": {
+              "x": 1,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "promote": false
+          }
+        ]
       },
       {
         "id": 18,
         "title": "第18問",
         "description": "重要詰将棋です。",
-        "initialSfen": "9/6g2/6spk/6p2/8p/7P1/9/8R/8L b r2b3g3s4n3l14p 1"
+        "initialSfen": "9/6g2/6spk/6p2/8p/7P1/9/8R/8L b r2b3g3s4n3l14p 1",
+        "solution": [
+          {
+            "from": {
+              "x": 1,
+              "y": 8
+            },
+            "to": {
+              "x": 1,
+              "y": 5
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 1,
+              "y": 3
+            },
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 1,
+              "y": 5
+            },
+            "to": {
+              "x": 1,
+              "y": 1
+            },
+            "promote": true
+          }
+        ]
       },
       {
         "id": 19,
         "title": "第19問",
         "description": "重要詰将棋です。",
-        "initialSfen": "4R2nl/7k1/5gspp/5pp2/9/9/9/7R1/9 b G2b2g3s3n3l14p 1"
+        "initialSfen": "4R2nl/7k1/5gspp/5pp2/9/9/9/7R1/9 b G2b2g3s3n3l14p 1",
+        "solution": [
+          {
+            "from": {
+              "x": 5,
+              "y": 1
+            },
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "promote": true
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 8
+            },
+            "to": {
+              "x": 2,
+              "y": 3
+            },
+            "promote": true
+          },
+          {
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "piece": "KI"
+          },
+          {
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "piece": "KI"
+          }
+        ]
       },
       {
         "id": 20,
         "title": "第20問",
         "description": "重要詰将棋です。",
-        "initialSfen": "3R1Sknl/6g2/4pppp1/8p/9/9/9/9/9 b Brb3g3s3n3l13p 1"
+        "initialSfen": "3R1Sknl/6g2/4pppp1/8p/9/9/9/9/9 b Brb3g3s3n3l13p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 1,
+              "y": 3
+            },
+            "piece": "KA"
+          },
+          {
+            "from": {
+              "x": 1,
+              "y": 1
+            },
+            "to": {
+              "x": 1,
+              "y": 3
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 4,
+              "y": 1
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": true
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 1
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 3,
+              "y": 1
+            },
+            "piece": "KI"
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 1
+            },
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 2
+            },
+            "to": {
+              "x": 1,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 1
+            },
+            "to": {
+              "x": 1,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 1,
+              "y": 2
+            },
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 6,
+              "y": 1
+            },
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "promote": true
+          }
+        ]
       },
       {
         "id": 21,
@@ -854,7 +1593,60 @@
         "id": 22,
         "title": "第22問",
         "description": "重要詰将棋です。",
-        "initialSfen": "5g1n+B/4g1kS1/5p1p1/4p1p1p/9/9/9/9/9 b Rrb2g3s3n4l13p 1"
+        "initialSfen": "5g1n+B/4g1kS1/5p1p1/4p1p1p/9/9/9/9/9 b Rrb2g3s3n4l13p 1",
+        "solution": [
+          {
+            "from": {
+              "x": 2,
+              "y": 2
+            },
+            "to": {
+              "x": 3,
+              "y": 3
+            },
+            "promote": true
+          },
+          {
+            "from": {
+              "x": 2,
+              "y": 1
+            },
+            "to": {
+              "x": 3,
+              "y": 3
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "piece": "HI"
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 3,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 1,
+              "y": 1
+            },
+            "to": {
+              "x": 2,
+              "y": 1
+            },
+            "promote": false
+          }
+        ]
       },
       {
         "id": 23,
@@ -1160,7 +1952,7 @@
         ]
       }
     ],
-    "timestamp": 1790066105892
+    "timestamp": 1790258432326
   },
   {
     "id": "1790061300116",
