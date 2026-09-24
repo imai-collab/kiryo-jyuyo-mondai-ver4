@@ -1,7 +1,7 @@
 [
   {
-    "id": "1790063350676",
-    "title": "©kiryoアプリ　厳選詰将棋① (2026/9/22)",
+    "id": "1790226898397",
+    "title": "©kiryoアプリ　厳選詰将棋① (2026/9/24)",
     "appTitle": "©kiryoアプリ　厳選詰将棋①",
     "clearUrl": "https://ais-pre-x5hnwaz6bcxstyuj6qxrfz-87151204104.asia-northeast1.run.app/complete?book=12",
     "problems": [
@@ -87,7 +87,33 @@
         "id": 14,
         "title": "第14問",
         "description": "重要詰将棋です。",
-        "initialSfen": "7nl/4+Rgk2/5pppp/9/9/9/9/9/9 b SNr2b3g3s2n3l14p 1"
+        "initialSfen": "7nl/4+Rgk2/5pppp/9/9/9/9/9/9 b SNr2b3g3s2n3l14p 1",
+        "branches": [
+          {
+            "id": "1790226707520",
+            "name": "変化1",
+            "moves": [
+              {
+                "to": {
+                  "x": 4,
+                  "y": 1
+                },
+                "piece": "GI"
+              },
+              {
+                "from": {
+                  "x": 3,
+                  "y": 2
+                },
+                "to": {
+                  "x": 3,
+                  "y": 1
+                },
+                "promote": false
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 15,
@@ -99,7 +125,56 @@
         "id": 16,
         "title": "第16問",
         "description": "重要詰将棋です。",
-        "initialSfen": "7nl/4Rsk2/5pppp/9/9/9/9/9/9 b 2Gr2b2g3s3n3l14p 1"
+        "initialSfen": "7nl/4Rsk2/5pppp/9/9/9/9/9/9 b 2Gr2b2g3s3n3l14p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "piece": "KI"
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 4,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 5,
+              "y": 1
+            },
+            "piece": "KI"
+          },
+          {
+            "from": {
+              "x": 4,
+              "y": 2
+            },
+            "to": {
+              "x": 5,
+              "y": 1
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 5,
+              "y": 2
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": true
+          }
+        ]
       },
       {
         "id": 17,
@@ -189,10 +264,77 @@
         "id": 31,
         "title": "第31問",
         "description": "重要詰将棋です。",
-        "initialSfen": "6knl/4R1g2/6ppp/9/9/9/9/9/9 b SNr2b3g3s2n3l15p 1"
+        "initialSfen": "6knl/4R1g2/6ppp/9/9/9/9/9/9 b SNr2b3g3s2n3l15p 1",
+        "solution": [
+          {
+            "to": {
+              "x": 4,
+              "y": 3
+            },
+            "piece": "KE"
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 4,
+              "y": 3
+            },
+            "promote": false
+          },
+          {
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "piece": "GI"
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 1
+            },
+            "to": {
+              "x": 2,
+              "y": 2
+            },
+            "promote": false
+          },
+          {
+            "from": {
+              "x": 3,
+              "y": 2
+            },
+            "to": {
+              "x": 4,
+              "y": 3
+            },
+            "promote": true
+          },
+          {
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "piece": "KY"
+          },
+          {
+            "from": {
+              "x": 5,
+              "y": 2
+            },
+            "to": {
+              "x": 3,
+              "y": 2
+            },
+            "promote": true
+          }
+        ]
       }
     ],
-    "timestamp": 1790063350676
+    "timestamp": 1790226898407
   },
   {
     "id": "1790066105882",
